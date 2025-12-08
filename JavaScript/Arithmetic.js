@@ -6,8 +6,8 @@ let count = 0
 
 for(let counter = 1; counter <= 10; counter++){
 let subtraction;
-let firstDigit = parseInt(Math.random(81,180)*10)
-let secondDigit = parseInt(Math.random(1,80)*10)
+let firstDigit = Math.random(81,180)*10
+let secondDigit = Math.random(1,80)*10
 
 if (secondDigit > firstDigit){
 subtraction = secondDigit - firstDigit

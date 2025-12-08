@@ -17,14 +17,14 @@ for counter in range(1,11):
     
     print(first_digit, "-", second_digit)
 
-        answer = input("Enter an answer: ")
+    answer = int(input("Enter an answer: "))
     
     if (answer == subtraction):
          print("You are correct")
          count += 1     
     elif(answer != subtraction):       
         print("You are incorrect")
-        answer = input("Enter an answer: ")
+        answer = int(input("Enter an answer: "))
 
 if count > 5:
     print("your final score is: ", count , "impressive!!!") 
