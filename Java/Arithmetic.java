@@ -7,6 +7,8 @@ public static void main(String[] args){
 Scanner input = new Scanner(System.in);
 Random random = new Random();
 
+System.out.println("Solve this subtraction equation");
+
 int count = 0;
 
 for(int counter = 1; counter <= 10; counter++){

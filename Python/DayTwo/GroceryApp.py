@@ -6,7 +6,7 @@ while True:
     1. Add Items
     2. Remove Items
     3. show all available item
-    4. Exit
+    4. Exit Menu
     """
     print(menu)
 
